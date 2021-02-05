@@ -1,0 +1,95 @@
+/* Reset Css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* balise principales */
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+/* header */
+header{
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+
+header div{
+    display: flex;
+}
+
+header div i{
+    color: gold;
+    padding-top: 0.7rem;
+}
+
+
+header div h1{
+    font-family: "Long Cang", cursive;
+    font-size: 2rem;
+    font-size: 3rem;
+}
+
+header nav{
+    align-self: center;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li{
+    list-style: none;
+    margin-left: 1rem;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover{
+    color: goldenrod;
+}
+
+/* SECTION 1  */
+.s1{
+    background-image: url(./images/frame.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 37.5rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s1 div{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.s1 h2{
+    font-size: 2.5rem;
+}
+
+.s1 div span{
+    color: goldenrod;
+}
+
+.s1 div p{
+    margin-top: 1.5rem;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+

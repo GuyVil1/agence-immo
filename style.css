@@ -157,7 +157,7 @@ header nav ul li a:hover{
 /* Section témoignage */
 .temoignage{
     background-color: rgb(233, 233, 233);
-    padding-top: 2rem;
+    padding: 2rem 0;
 }
 
 .temoignage h3 {
@@ -188,4 +188,56 @@ header nav ul li a:hover{
 .photo img{
     width: 5rem;
     border-radius: 50%;
+}
+
+
+/* Formulaire */
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.formulaire h3{
+    font-size: 2.5rem;
+    color: rgb(190, 190, 190);
+    font-weight: lighter;
+    margin: 3rem 0 2rem -13rem;
+}
+
+.formulaire div{
+    width: 40%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    background: #333;
+    border: 0;
+    border-bottom: 1px solid #555;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: white;
+    outline: 0;
+    margin-bottom: 1rem;
+}
+
+form button{
+    padding: 1rem 2rem;
+    border: 0;
+    border-radius: 30px;
+    background: #f1c40f;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+    cursor: pointer;
+    width: 40%;
+    margin: auto;
 }

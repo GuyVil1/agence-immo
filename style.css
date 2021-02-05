@@ -93,3 +93,34 @@ header nav ul li a:hover{
     font-size: 1.5rem;
 }
 
+/* CARD */
+
+.s2 h3 {
+    font-weight: lighter;
+    color: rgb(194, 194, 192);
+    margin: 2rem 0rem 0 2rem;
+    font-size: 2rem;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+}
+
+.container div{
+    flex: 1;
+    margin: 2.5rem;
+}
+
+.container div img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.container div hr{
+    width: 20%;
+    height: 10px;
+    background-color: black;
+    margin: 1rem auto;
+}
+

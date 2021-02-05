@@ -241,3 +241,12 @@ form button{
     width: 40%;
     margin: auto;
 }
+
+/* Footer */
+
+footer{
+    background: #444;
+    padding: 3rem 1rem;
+    color: white;
+    text-align: center;
+}
